@@ -7,7 +7,7 @@ export default class Books {
 
      static myCollection = [];
 
-     add(myBooksB) {
+     add = (myBooksB) => {
        const books = document.createElement('tr');
        const btn = document.createElement('button');
        const tdBtn = document.createElement('td');
@@ -31,7 +31,7 @@ export default class Books {
        });
      }
 
-     static loading(myBooksB) {
+     static loading = (myBooksB) => {
        const restore = JSON.parse(localStorage.getItem('myCollection'));
        for (let i = 0; i < restore.length; i += 1) {
          const books = document.createElement('tr');
