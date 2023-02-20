@@ -1,0 +1,120 @@
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p#date-time {
+    text-align: end;
+    margin-top: 5px;
+    margin-right: 13px;
+    font-size: 13px;
+  }
+  
+  table {
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    width: 80%;
+    border: 3px solid black;
+    margin: 0 10%;
+  }
+  
+  td {
+    text-align: left;
+    padding: 8px;
+    margin-right: 5px;
+  }
+  
+  tr {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #e1dcdcb5;
+  }
+  
+  .remove-btn {
+    width: 120px;
+  }
+  
+  button {
+    box-shadow: 3px 2px black;
+  }
+  
+  .remove-btn button {
+    width: 80%;
+    border: 2px solid black;
+    padding: 5px 10px;
+  }
+  
+  .flex-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 30px auto;
+  }
+  
+  .flex-container .line {
+    width: 45%;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .flex-container h2 {
+    margin-bottom: 5px;
+  }
+  
+  .flex-container button {
+    align-self: flex-end;
+  }
+  
+  .flex-container input {
+    width: 100%;
+    border: 2px solid black;
+    padding: 10px;
+  }
+  
+  /* stlyling the navbar */
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 0 15px;
+    height: 6vh;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+  }
+  
+  .line-vertical {
+    width: 2px;
+    background: black;
+  }
+  
+  footer {
+    margin-top: 50px;
+  }
+  
+  footer h3 {
+    font-weight: 400;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
